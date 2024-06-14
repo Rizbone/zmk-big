@@ -639,7 +639,7 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(B))	
 				&kp LC(HOME)				// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
@@ -676,7 +676,7 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&kp LC(LA(B))	
+				&kp LC(KP_DIVIDE)
 
 				&wAltShot
 				&kp LS(HOME)					// @Home 
@@ -712,7 +712,7 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(LS(B)))		
 				&kp PG_UP					//
 				&kp LS(TAB)
 				&kp UP						// 
@@ -749,7 +749,7 @@
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&kp END
-				&kp LC(LA(LS(B)))			
+				&kp ESC
 
 				&kp C_MUTE					//
 				&kp C_PREV					//
