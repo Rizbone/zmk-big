@@ -644,13 +644,13 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp DEL
+				&kp LC(UP)
 
 				&kp LC(KP_MULTIPLY)	
 				&kp LC(KP_PLUS)		
 				&kp PG_UP
 				&kp LC(KP_MINUS)
-				&kp LC(UP)
+				&kp DEL
 				&kp BSPC					
 
 				// ----------------------------------------
@@ -660,13 +660,13 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LC(LA(B))	
-
 				&kp LC(LA(G))	
+				
+				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
-				&kp LC(DOWN)
+				&kp LC(LA(B))	
 				&kp ENTER					// -
 				
 				// ----------------------------------------
@@ -676,9 +676,9 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&wAltShot
+				&kp LC(DOWN)
 
-				&kp LC(LS(F10))
+				&wAltShot
 				&kp LS(HOME)					// @Home 
 				&kp LS(LC(LEFT))				// @Wort Sprung
 				&kp LS(LC(RIGHT))				// @Wort Sprung
@@ -733,13 +733,13 @@
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp LC(LG(LA(B)))
-
 				&kp LC(LG(LA(G)))
+
+				&kp LSHFT					// 
 				&kp LALT					// 
 				&kp LCTL					//
 				&kp LGUI					//
-				&kp LSHFT					// 
+				&kp LC(LG(LA(B)))
 				&kp ENTER
 
 				// ----------------------------------------
