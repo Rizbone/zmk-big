@@ -639,18 +639,18 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LA(B))	
 				&kp LC(HOME)				// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LC(UP)
+				&kp DEL
 
 				&kp LC(KP_MULTIPLY)	
 				&kp LC(KP_PLUS)		
 				&kp PG_UP
 				&kp LC(KP_MINUS)
-				&kp DEL
+				&kp LC(UP)
 				&kp BSPC					
 
 				// ----------------------------------------
@@ -666,7 +666,7 @@
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
-				&kp LC(LA(B))	
+				&kp LC(DOWN)
 				&kp ENTER					// -
 				
 				// ----------------------------------------
@@ -676,7 +676,7 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&kp LC(DOWN)
+				&kp LC(KP_DIVIDE)	
 
 				&wAltShot
 				&kp LS(HOME)					// @Home 
@@ -712,7 +712,7 @@
 
 				// ----------------------------------------
 
-				&kp ESC
+				&kp LC(LG(LA(B)))
 				&kp LC(HOME)					
 				&kp LS(TAB)
 				&kp UP						
@@ -735,28 +735,28 @@
 				&kp RIGHT
 				&kp LC(LG(LA(G)))
 
-				&kp LSHFT					// 
+				&kp C_PLAY					//						
 				&kp LALT					// 
 				&kp LCTL					//
 				&kp LGUI					//
-				&kp LC(LG(LA(B)))
+				&kp LSHFT					// 
 				&kp ENTER
 
 				// ----------------------------------------
 
-				&kp LSHIFT						//
+				&kp LSHIFT						
 				&kp HOME
 				&kp LC(LEFT)
 				&kp LC(RIGHT)
 				&kp END
 				&kp PG_DN
-
-				&kp C_PLAY					//						//
-				&kp C_PREV					//
+				
+				&kp C_MUTE
+				&kp C_PREV					
 				&kp C_VOL_DN						
 				&kp C_VOL_UP					
-				&kp C_NEXT					// 
-				&kp RSHIFT						//	//
+				&kp C_NEXT					
+				&kp RSHIFT						
 
 				// ----------------------------------------
 		
