@@ -1308,46 +1308,46 @@
 				// ----------------------------------------
 				
 				&kp ESC
-				&trans					//
+				&none					//
 				&kp LS(EQUAL)			//
 				&kp EQUAL				// 
 				&kp RA(N3)				// hoch 3
-				&trans					//
+				&none					//
 
-				&trans					//
-				&trans
-				&trans					//
+				&none					//
+				&kp RA(RBRC)				// ~Test
+				&kp RA(RBKT)				// ~Test
 				&kp RA(M)				// 
-				&trans					//
+				&none					//
 				&kp BACKSPACE			// 
 
 				// ----------------------------------------
 
 				&kp LGUI
-				&trans					//
+				&none					//
 				&kp LS(GRAVE)			// Grad
-				&kp LC(LA(NUHS))		// ~Test
-				&kp LC(LA(RBRC))		// ~Test
-				&kp TILDE				// 
+				&kp LC(LA(RBRC))			// ~Test
+				&kp LC(LA(RBKT))			// ~Test
+				&none					//
 
-				&trans					//
-				&trans					//
+				&none					//
+				&none					//
 				&kp RA(N8)				// Eckige
 				&kp RA(N9)				// Eckige
-				&trans					//
+				&none					//
 				&kp ENTER
 
 				// ----------------------------------------
 
 				&kp LALT
 				&kp LS(LA(N7))			// 
-				&trans
-				&trans
+				&kp LC(LA(NUHS))			// ~Test
+				&kp LA(NUHS)				// ~Test
 				&kp LS(N4) 				// $
-				&trans					//
+				&none					//
 
 				&kp RA(NUHS)			// ~
-				&trans
+				&none
 				&kp RA(N7)				// Geschweift
 				&kp RA(N0)				// Geschweift
 				&kp LS(SLASH)			// _
