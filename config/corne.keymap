@@ -1315,8 +1315,8 @@
 				&none					//
 
 				&none					//
-				&kp RA(RBRC)				// ~Test
-				&kp RA(RBKT)				// ~Test
+				&none
+				&none
 				&kp RA(M)				// 
 				&none					//
 				&kp BACKSPACE			// 
@@ -1326,8 +1326,8 @@
 				&kp LGUI
 				&none					//
 				&kp LS(GRAVE)			// Grad
-				&kp LC(LA(RBRC))			// ~Test
-				&kp LC(LA(RBKT))			// ~Test
+				&none
+				&none
 				&none					//
 
 				&none					//
@@ -1341,12 +1341,12 @@
 
 				&kp LALT
 				&kp LS(LA(N7))			// 
-				&kp LC(LA(NUHS))			// ~Test
-				&kp LA(NUHS)				// ~Test
+				&none
+				&none
 				&kp LS(N4) 				// $
 				&none					//
 
-				&kp RA(NUHS)			// ~
+				&kp RA(RBKT)			// ~
 				&none
 				&kp RA(N7)				// Geschweift
 				&kp RA(N0)				// Geschweift
