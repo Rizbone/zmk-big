@@ -1326,9 +1326,9 @@
 				&kp LGUI
 				&trans					//
 				&kp LS(GRAVE)			// Grad
-				&trans					//
-				&trans					//
-				&trans					//
+				&kp LC(LA(NUHS))		// ~Test
+				&kp LC(LA(RBRC))		// ~Test
+				&kp TILDE				// 
 
 				&trans					//
 				&trans					//
