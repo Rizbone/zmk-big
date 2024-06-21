@@ -1252,10 +1252,10 @@
 				// ----------------------------------------
 
 				&kp LA(TAB)
-				&kp ENTER
-				&kp DEL
-				&kp LSHFT
-				&kp LCTRL
+				&kp RA(N7)
+				&kp RA(N8)
+				&kp RA(N9)
+				&kp RA(N0)
 				&kp LS(NUHS)			// '
 
 				&kp LS(N2)				// "
@@ -1284,8 +1284,8 @@
 				// ----------------------------------------
 
 				&sl wSSYM				// deep
-				&none
-				&none					// 
+				&kp SPACE
+				&kp LA(TAB)				// 
 				&none					//
 				&wNavReset
 				&none					//
@@ -1315,7 +1315,7 @@
 				&none					//
 
 				&none					//
-				&none
+				&kp LS(N3)
 				&none
 				&kp RA(M)				// 
 				&none					//
@@ -1356,8 +1356,8 @@
 				// ----------------------------------------
 
 				&trans					//
-				&none
-				&none					// 
+				&kp SPACE
+				&kp LA(TAB)				// 
 				&none					//
 				&wNavReset
 				&none					//
