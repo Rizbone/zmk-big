@@ -1332,8 +1332,8 @@
 
 				&none					//
 				&kp RA(N2)				// hoch 2
-				&kp RA(N8)				// Eckige
-				&kp RA(N9)				// Eckige
+				&none
+				&none
 				&kp RA(N3)				// hoch 3
 				&kp ENTER
 
@@ -1348,9 +1348,9 @@
 
 				&kp RA(RBKT)			// ~
 				&none
-				&kp RA(N7)				// Geschweift
-				&kp RA(N0)				// Geschweift
-				&kp LS(SLASH)			// _
+				&none
+				&none
+				&none
 				&kp LG(DOT)   			// @Sonderzeichen
 
 				// ----------------------------------------
