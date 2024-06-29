@@ -425,10 +425,10 @@
 				&kp RBKT  				// +
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
-				&kp RA(N2)				// hoch 2
+				&kp NUHS				// #
 				&kp X
 				
-				&kp LS(NUHS)			// '
+				&kp RA(Q)				// at
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -496,10 +496,10 @@
 				&kp RBKT  				// +
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
-				&kp RA(N2)				// hoch 2
+				&kp NUHS				// #
 				&kp X
 				
-				&kp LS(NUHS)			// '
+				&kp RA(Q)				// at
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
 				&kp M
@@ -712,49 +712,49 @@
 				// ----------------------------------------
 
 				&kp LC(LG(LA(B)))
-				&kp PG_UP
+				&kp LC(LS(HOME))
 				&kp LS(TAB)
 				&kp UP						
 				&kp TAB
-				&kp INSERT
+				&kp DELETE
 
-				&bt BT_CLR
-				&bt BT_SEL 1
-				&bt BT_SEL 2
-				&bt BT_SEL 3
-				&bt BT_SEL 4
+				&kp LC(LS(KP_MULTIPLY))
+				&kp LC(LS(KP_PLUS))
+				&kp LC(PG_UP)
+				&kp LC(LS(KP_MINUS))
+				&kp LA(UP)
 				&kp BACKSPACE
 
 				// ----------------------------------------
 		
 				&sl wSShift	
-				&kp PG_DN
+				&kp LC(LS(END))
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
 				&kp LC(LG(LA(G)))
 
-				&kp C_PLAY					//						
-				&kp LALT					// 
-				&kp LCTL					//
-				&kp LGUI					//
-				&kp LSHFT					// 
+				&kp LGUI					
+				&kp LCTL					
+				&kp LC(PG_DN)
+				&kp LALT					
+				&kp LA(DOWN)
 				&kp ENTER
 
 				// ----------------------------------------
 
 				&kp LSHIFT						
-				&kp HOME
-				&kp LC(LEFT)
-				&kp LC(RIGHT)
-				&kp END
+				&kp LS(HOME)
+				&kp LC(LS(LEFT))
+				&kp LC(LS(RIGHT))
+				&kp LS(END)
 				&kp LC(LS(KP_DIVIDE))
 				
-				&kp C_MUTE
-				&kp C_PREV					
-				&kp C_VOL_DN						
-				&kp C_VOL_UP					
-				&kp C_NEXT					
+				&kp INSERT
+				&kp LA(LEFT)					
+				&kp LC(LA(LEFT))				
+				&kp LC(LA(RIGHT))
+				&kp LA(RIGHT)					
 				&kp RSHIFT						
 
 				// ----------------------------------------
@@ -874,7 +874,7 @@
 				&none						//
 				&none						//
 				&none	
-				&none
+				&kp LG(LS(F6))
 		
 				// ----------------------------------------
 
@@ -894,7 +894,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(F6))
+				&kp LG(LS(F7))
 				&none						//
 				&none						//
 				&none						//
@@ -906,7 +906,7 @@
 				&none						//
 				&none						//
 				&none	
-				&none		
+				&kp LG(LS(F8))
 		
 				// ----------------------------------------
 
@@ -940,7 +940,7 @@
 
 				// ----------------------------------------
 	
-				&kp LG(LS(F7))
+				&kp LG(LS(F9))
 				&kp LC(LA(F1))	
 				&kp LC(LA(F2))	
 				&kp LC(LA(F3))	
@@ -956,7 +956,7 @@
 				
 				// ----------------------------------------
 
-				&kp LG(LS(F8))
+				&kp LG(LS(F10))
 				&kp LC(A)
 				&kp LG(DEL)	
 				&kp LG(INSERT)	
@@ -972,7 +972,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(F9))
+				&kp LG(LS(F11))
 				&kp LC(S)
 				&kp LC(Y)
 				&kp LC(Z)
@@ -1013,7 +1013,7 @@
 
 			// ----------------------------------------
 	
-				&kp LG(LS(F10))
+				&kp LG(LS(F12))
 				&kp LC(LA(LS(F1)))	
 				&kp LC(LA(LS(F2)))	
 				&kp LC(LA(LS(F3)))	
@@ -1029,7 +1029,7 @@
 				
 				// ----------------------------------------
 
-				&kp LG(LS(F11))
+				&kp LG(LS(F13))
 				&kp LC(LS(A))
 				&kp LG(LS(DEL))	
 				&kp LG(LS(INSERT))
@@ -1045,7 +1045,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(F12))
+				&kp LG(LS(F14))
 				&kp LC(LS(S))
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
@@ -1126,11 +1126,11 @@
 				&kp F14
 				&kp F15
 
-				&kp F16
-				&kp F17
-				&kp F18
-				&kp F19
-				&kp F20
+				&bt BT_CLR
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_SEL 4
 				&kp LSHFT
 
 				// ----------------------------------------
@@ -1267,7 +1267,7 @@
 
 				// ----------------------------------------
 
-				&kp LS(N3)				// §
+				&kp LS(N3)
 				&kp LS(N7)				// /
 				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
@@ -1307,7 +1307,7 @@
 
 				// ----------------------------------------
 				
-				&kp ESC
+				&none	
 				&none					//
 				&kp LS(EQUAL)			//
 				&kp EQUAL				// 
@@ -1323,7 +1323,7 @@
 
 				// ----------------------------------------
 
-				&kp LGUI
+				&none	
 				&none					//
 				&kp LS(GRAVE)			// Grad
 				&none
@@ -1339,7 +1339,7 @@
 
 				// ----------------------------------------
 
-				&kp LALT
+				&none	
 				&kp LS(LA(N7))			// 
 				&none
 				&none
@@ -1402,7 +1402,7 @@
 				&none
 				&kp LC(LA(LG(U)))
 				&kp LC(LA(LG(C)))
-				&none
+				&kp LG(A)
 
 				&kp LC(LA(LG(ENTER)))	
 				&wWinLeft
