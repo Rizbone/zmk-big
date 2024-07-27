@@ -661,7 +661,7 @@
 				&kp RIGHT 					// @Right
 				&kp LC(LA(G))	
 				
-				&kp LC(LS(F10))
+				&kp LC(BSLH)
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -1384,9 +1384,9 @@
 				&none
 				&none
 				&none
-				&none
-				&none
-				&none
+				&kp LC(LA(LG(K)))
+				&kp LC(LA(LG(J)))
+				&kp LS(LG(S))
 
 				&kp LC(LA(ENTER))	
 				&kp LG(LS(LEFT))
@@ -1398,10 +1398,10 @@
 				// ----------------------------------------
 		
 				&sl wSSShift
-				&none
-				&none
-				&kp LC(LA(LG(U)))
-				&kp LC(LA(LG(C)))
+				&kp LALT
+				&kp LWIN
+				&kp LSHFT
+				&kp LCTRL
 				&kp LG(A)
 
 				&kp LC(LA(LG(ENTER)))	
@@ -1416,9 +1416,9 @@
 				&none
 				&none
 				&none
-				&none
-				&none
-				&none
+				&kp LC(LA(LG(U)))
+				&kp LC(LA(LG(C)))
+				&kp LC(LA(LG(S)))
 
 				&kp LC(LA(LG(F1)))
 				&kp LC(LA(LG(F2)))
@@ -1477,11 +1477,11 @@
 				&none
 				&none
 
-				&kp LG(A)	
-				&kp LG(LS(S))
-				&kp LC(LA(LG(J)))
-				&kp LC(LA(LG(K)))
-				&kp LC(LA(LG(W)))
+				&none
+				&none
+				&none
+				&none
+				&none
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
