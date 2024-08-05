@@ -643,9 +643,9 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp DEL
-
 				&kp LC(KP_MULTIPLY)	
+
+				&kp DEL
 				&kp LC(KP_PLUS)		
 				&kp PG_UP
 				&kp LC(KP_MINUS)
@@ -661,7 +661,7 @@
 				&kp RIGHT 					// @Right
 				&kp LC(LA(G))	
 				
-				&kp LC(GRAVE)
+				&kp LC(LA(K))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -716,9 +716,9 @@
 				&kp LS(TAB)
 				&kp UP						
 				&kp TAB
-				&kp DELETE
-
 				&kp LC(LS(KP_MULTIPLY))
+
+				&kp INSERT
 				&kp LC(LS(KP_PLUS))
 				&kp LC(PG_UP)
 				&kp LC(LS(KP_MINUS))
@@ -734,10 +734,10 @@
 				&kp RIGHT
 				&kp LC(LG(LA(G)))
 
-				&kp LGUI					
-				&kp LCTL					
+				&kp LCTL			
+				&kp LC(LA(LS(TAB)))		
 				&kp LC(PG_DN)
-				&kp LALT					
+				&kp LC(LA(TAB))
 				&kp LA(DOWN)
 				&kp ENTER
 
@@ -750,7 +750,7 @@
 				&kp LS(END)
 				&kp LC(LS(KP_DIVIDE))
 				
-				&kp INSERT
+				&kp LALT		
 				&kp LA(LEFT)					
 				&kp LC(LA(LEFT))				
 				&kp LC(LA(RIGHT))
