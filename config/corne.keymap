@@ -661,7 +661,7 @@
 				&kp RIGHT 					// @Right
 				&kp LC(LA(G))	
 				
-				&kp LC(LA(K))
+				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -963,7 +963,7 @@
 				&kp LC(C)			
 				&kp LC(X)
 
-				&kp LC(LA(H))
+				&kp LG(V)
 				&kp LC(V)
 				&kp LC(LA(I))	
 				&kp LC(LA(U))	
@@ -1036,7 +1036,7 @@
 				&kp LC(LS(C))			
 				&kp LC(LS(X))
 
-				&kp LG(V)
+				&kp LC(LA(H))
 				&kp LC(LS(LA(V)))	
 				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
@@ -1381,14 +1381,14 @@
 
 				// ----------------------------------------
 
-				&none
-				&none
-				&none
-				&kp LC(LA(LG(K)))
-				&kp LC(LA(LG(J)))
-				&kp LS(LG(S))
+				&kp ESC
+				&kp LC(LA(F1))
+				&kp LC(LA(F2))
+				&kp LC(LA(F3))
+				&kp LC(LA(F4))
+				&kp LC(LA(F5))
 
-				&kp LC(LA(ENTER))	
+				&kp LC(F1)
 				&kp LG(LS(LEFT))
 				&wWinUp
 				&kp LG(LS(RIGHT))
@@ -1402,9 +1402,9 @@
 				&kp LWIN
 				&kp LSHFT
 				&kp LCTRL
-				&kp LG(A)
+				&kp DELETE
 
-				&kp LC(LA(LG(ENTER)))	
+				&kp LG(A)
 				&wWinLeft
 				&wWinDown
 				&wWinRight
@@ -1416,9 +1416,9 @@
 				&none
 				&none
 				&none
+				&kp LC(LA(LG(K)))
 				&kp LC(LA(LG(U)))
-				&kp LC(LA(LG(C)))
-				&kp LC(LA(LG(S)))
+				&kp LS(LG(S))
 
 				&kp LC(LA(LG(F1)))
 				&kp LC(LA(LG(F2)))
@@ -1454,40 +1454,40 @@
 
 				// ----------------------------------------
 
-				&none
+				&kp ESC
 				&sys_reset
-				&kp LC(LA(LG(A)))
-				&kp LC(LA(DELETE))
-				&kp LC(LA(LG(B)))
-				&kp LG(L)
-
-				&kp LC(LS(ESC))		
-				&kp LC(F1)
-				&kp LG(I)		
 				&none
+				&none
+				&none
+				&none
+
+				&none
+				&none
+				&none
+				&kp LC(LA(ENTER))	
 				&none			
 				&kp LG(D)		
 
 				// ----------------------------------------
 		
 				&trans
+				&kp LC(LA(DELETE))
 				&none
 				&none
-				&none
-				&none
-				&none
+				&kp LC(LA(LG(C)))
+				&kp LS(DELETE)
 
 				&none
-				&none
-				&none
-				&none
+				&kp LC(LS(ESC))		
+				&kp LC(LA(LG(ENTER)))	
+				&kp LG(I)		
 				&none
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
-				&none
-				&none
+				&kp LG(L)
+				&kp LC(LA(LG(DELETE)))
 				&none
 				&none
 				&none
