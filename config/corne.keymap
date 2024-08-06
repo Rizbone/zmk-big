@@ -307,6 +307,22 @@
                 ; 
     	};
 
+		wDoubleTab: wDoubleTab {
+            label = "wDoubleTab";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+				, <&macro_wait_time 100>
+				, <&macro_tap &kp TAB>
+				, <&macro_wait_time 100>
+				, <&macro_tap &kp TAB>
+				, <&macro_wait_time 100>
+				, <&macro_release  &kp LALT>
+                ; 
+    	};
+
+
 
 		// Reset
 
@@ -675,7 +691,7 @@
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&kp LC(KP_DIVIDE)	
+				&kp LA(TAB)
 
 				&wAltShot
 				&kp LS(HOME)					// @Home 
@@ -748,7 +764,7 @@
 				&kp LC(LS(LEFT))
 				&kp LC(LS(RIGHT))
 				&kp LS(END)
-				&kp LC(LS(KP_DIVIDE))
+				&wDoubleTab
 				
 				&kp LALT		
 				&kp LA(LEFT)					
