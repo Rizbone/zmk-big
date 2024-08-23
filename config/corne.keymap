@@ -974,8 +974,8 @@
 
 				&kp LG(LS(F8))
 				&kp LC(A)
-				&kp LG(DEL)	
-				&kp LG(INSERT)	
+				&kp LC(LA(L))	
+				&kp LC(LA(R))	
 				&kp LC(C)			
 				&kp LC(X)
 
@@ -997,8 +997,8 @@
 
 				&kp LC(P)	
 				&kp LC(LA(F))	
-				&kp LC(LA(L))	
-				&kp LC(LA(R))	
+				&kp LG(DEL)	
+				&kp LG(INSERT)	
 				&kp LC(F)	
 				&kp LC(LA(C))	
 				
@@ -1047,8 +1047,8 @@
 
 				&kp LG(LS(F11))
 				&kp LC(LS(A))
-				&kp LG(LS(DEL))	
-				&kp LG(LS(INSERT))
+				&kp LC(LS(LA(L)))	
+				&kp LC(LS(LA(R)))
 				&kp LC(LS(C))			
 				&kp LC(LS(X))
 
@@ -1070,8 +1070,8 @@
 
 				&kp LC(LS(P))
 				&kp LC(LS(LA(F)))	
-				&kp LC(LS(LA(L)))	
-				&kp LC(LS(LA(R)))
+				&kp LG(LS(DEL))	
+				&kp LG(LS(INSERT))
 				&kp LC(LS(F))
 				&kp LC(LS(LA(C)))
 				
@@ -1404,7 +1404,7 @@
 				&kp LC(LA(F4))
 				&kp LC(LA(F5))
 
-				&kp LC(W)
+				&kp LA(SPACE)
 				&kp LG(LS(LEFT))
 				&wWinUp
 				&kp LG(LS(RIGHT))
@@ -1420,7 +1420,7 @@
 				&kp LCTRL
 				&kp DELETE
 
-				&kp LC(T)
+				&kp LC(LA(M))
 				&wWinLeft
 				&wWinDown
 				&wWinRight
@@ -1445,8 +1445,8 @@
 
 				// ----------------------------------------
 		
-				&wSymReset
-				&kp LG(LA(S))
+				&kp LG(LA(S))				// &wSymReset
+				&kp LG(S)
 				&wAlterReset				// 
 				&wPrgReset					//
 				&wNavReset
@@ -1477,27 +1477,27 @@
 				&none
 				&none
 
-				&kp LC(LS(W))
+				&none
 				&none
 				&kp LC(F1)
 				&none	
 				&none			
-				&kp LC(LA(LG(ENTER)))		
+				&kp LC(LA(DELETE))
 
 				// ----------------------------------------
 		
 				&trans
 				&kp LG(L)
-				&kp LC(LA(DELETE))
+				&none
 				&none
 				&kp LC(LA(LG(C)))
 				&kp LS(DELETE)
 
-				&kp LC(LS(T))
-				&none
-				&none
-				&none
-				&none
+				&kp LC(LA(LG(ENTER)))	
+				&kp LC(LC(LA(N1)))			
+				&kp LC(LC(LA(N2)))			
+				&kp LC(LC(LA(N3)))			
+				&kp LC(LC(LA(N4)))			
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
@@ -1519,7 +1519,7 @@
 				// ----------------------------------------
 		
 				&wSymReset
-				&kp LG(S)
+				&kp LG(LA(S))
 				&wAlterReset				// 
 				&wPrgReset					//
 				&wNavReset
