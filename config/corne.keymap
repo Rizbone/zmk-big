@@ -1494,10 +1494,10 @@
 				&kp LS(DELETE)
 
 				&kp LC(LA(LG(ENTER)))	
-				&kp LC(LC(LA(N1)))			
-				&kp LC(LC(LA(N2)))			
-				&kp LC(LC(LA(N3)))			
-				&kp LC(LC(LA(N4)))			
+				&kp LC(LG(LA(N1)))			
+				&kp LC(LG(LA(N2)))			
+				&kp LC(LG(LA(N3)))			
+				&kp LC(LG(LA(N4)))			
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
