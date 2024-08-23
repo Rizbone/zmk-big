@@ -997,8 +997,8 @@
 
 				&kp LC(P)	
 				&kp LC(LA(F))	
-				&kp LG(DEL)	
 				&kp LG(INSERT)	
+				&kp LG(DEL)	
 				&kp LC(F)	
 				&kp LC(LA(C))	
 				
@@ -1070,8 +1070,8 @@
 
 				&kp LC(LS(P))
 				&kp LC(LS(LA(F)))	
-				&kp LG(LS(DEL))	
 				&kp LG(LS(INSERT))
+				&kp LG(LS(DEL))	
 				&kp LC(LS(F))
 				&kp LC(LS(LA(C)))
 				
