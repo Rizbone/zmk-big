@@ -1,5 +1,4 @@
 
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -1430,11 +1429,11 @@
 				// ----------------------------------------
 
 				&kp LA(TAB)
-				&none
+				&kp LS(LG(S))
 				&none
 				&kp LC(LA(LG(K)))
 				&kp LC(LA(LG(U)))
-				&kp LS(LG(S))
+				&kp LC(S)
 
 				&kp LC(LA(LG(F1)))
 				&kp LC(LA(LG(F2)))
@@ -1445,7 +1444,7 @@
 
 				// ----------------------------------------
 		
-				&kp LG(LA(S))				// &wSymReset
+				&kp LG(LA(S))				// 
 				&kp LG(S)
 				&wAlterReset				// 
 				&wPrgReset					//
@@ -1471,11 +1470,11 @@
 				// ----------------------------------------
 
 				&kp ESC
-				&sys_reset
-				&none
-				&none
-				&none
-				&none
+				&kp LC(LA(F6))
+				&kp LC(LA(F7))
+				&kp LC(LA(F8))
+				&kp LC(LA(F9))
+				&kp LC(LA(F10))
 
 				&none
 				&none
@@ -1503,7 +1502,7 @@
 				// ----------------------------------------
 
 				&wDoubleTab
-				&none
+				&sys_reset
 				&none
 				&none
 				&none
@@ -1533,4 +1532,6 @@
 
 	};
 };
+
+
 
