@@ -1434,7 +1434,7 @@
 				&none
 				&kp LC(LA(LG(K)))
 				&kp LC(LA(LG(U)))
-				&kp LS(S)
+				&kp LC(S)
 
 				&kp LC(LA(LG(F1)))
 				&kp LC(LA(LG(F2)))
