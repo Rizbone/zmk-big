@@ -1385,6 +1385,151 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 14 - wSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_wSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp LC(LA(F1))
+				&kp LC(LA(F2))
+				&kp LC(LA(F3))
+				&kp LC(LA(F4))
+				&kp LC(LA(F5))
+
+				&kp LA(SPACE)
+				&kp LG(LS(LEFT))
+				&wWinUp
+				&kp LG(LS(RIGHT))
+				&kp LG(PG_UP)				
+				&kp LA(F4)			
+
+				// ----------------------------------------
+		
+				&sl wSSShift
+				&kp LALT
+				&kp LWIN
+				&kp LSHFT
+				&kp LCTRL
+				&kp DELETE
+
+				&kp LC(LA(M))
+				&wWinLeft
+				&wWinDown
+				&wWinRight
+				&kp LG(PG_DN)			
+				&kp LC(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LA(TAB)
+				&kp LS(LG(S))
+				&none
+				&kp LC(LA(LG(K)))
+				&kp LC(LA(LG(U)))
+				&kp LC(S)
+
+				&kp LC(LA(LG(F1)))
+				&kp LC(LA(LG(F2)))
+				&kp LC(LA(LG(F3)))	
+				&kp LC(LA(LG(F4)))
+				&kp LC(LA(LG(F5)))
+				&kp LC(LA(LG(F6)))
+
+				// ----------------------------------------
+		
+				&kp LG(LA(S))				// 
+				&kp LG(S)
+				&wAlterReset				// 
+				&wPrgReset					//
+				&wNavReset
+				&wNrReset
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 15 - mSSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_wSSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp LC(LA(F6))
+				&kp LC(LA(F7))
+				&kp LC(LA(F8))
+				&kp LC(LA(F9))
+				&kp LC(LA(F10))
+
+				&none
+				&none
+				&kp LC(F1)
+				&none	
+				&none			
+				&kp LC(LA(DELETE))
+
+				// ----------------------------------------
+		
+				&trans
+				&kp LG(L)
+				&none
+				&none
+				&kp LC(LA(LG(C)))
+				&kp LS(DELETE)
+
+				&kp LC(LA(LG(ENTER)))	
+				&kp LC(LG(LA(N1)))			
+				&kp LC(LG(LA(N2)))			
+				&kp LC(LG(LA(N3)))			
+				&kp LC(LG(LA(N4)))			
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&wDoubleTab
+				&sys_reset
+				&none
+				&none
+				&none
+				&none
+
+				&kp LC(LA(LG(F7)))
+				&kp LC(LA(LG(F8)))
+				&kp LC(LA(LG(F9)))	
+				&kp LC(LA(LG(F10)))
+				&kp LC(LA(LG(F11)))
+				&kp LC(LA(LG(F12)))
+
+				// ----------------------------------------
+		
+				&wSymReset
+				&kp LG(LA(S))
+				&wAlterReset				// 
+				&wPrgReset					//
+				&wNavReset
+				&wNrReset
+
+				// ----------------------------------------
+			>;
+		};
+
+
 
 	};
 };
