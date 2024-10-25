@@ -553,7 +553,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LC(H))	
+				&kp LC(LA(B))	
 				&kp LG(UP)					// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
@@ -561,10 +561,10 @@
 				&kp LG(Y)
 
 				&kp LG(LS(Y))
-				&kp LG(LC(A))	
-				&kp LG(LC(E))	
-				&kp LG(LC(B))	
-				&kp LG(LC(V))	
+				&kp LG(KP_PLUS)		
+				&kp LC(UP)
+				&kp LG(KP_MINUS)
+				&kp LA(UP)
 				&kp BSPC					
 
 				// ----------------------------------------
@@ -574,13 +574,13 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LG(LC(G))	
+				&kp LC(LA(G))	
 				
 				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
-				&kp LG(LC(F))	
+				&kp LC(DOWN)
 				&kp LC(TAB)				 	// 
-				&kp LG(LC(W))	
+				&kp LA(DOWN)
 				&kp ENTER					// -
 				
 				// ----------------------------------------
@@ -592,7 +592,7 @@
 				&kp LG(RIGHT)				// @End  
 				&kp LG(TAB)
 
-				&kp LG(LC(P))	
+				&kp LG(LA(LC(O)))
 				&kp LG(LS(LEFT))				// @Home 
 				&kp LA(LS(LEFT))				// @Wort Sprung
 				&kp LA(LS(RIGHT))				// @Wort Sprung
@@ -626,7 +626,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LC(LS(H)))	
+				&kp LC(LG(LA(B)))
 				&kp LG(LS(UP))					// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						
@@ -634,10 +634,10 @@
 				&kp LG(LA(Y))
 
 				&kp LG(LA(LS(Y)))
-				&kp LG(KP_PLUS)
+				&kp LG(LS(KP_PLUS))
 				&kp PG_UP
-				&kp LG(KP_MINUS)
-				&kp DELETE
+				&kp LG(LS(KP_MINUS))
+				&kp LG(PG_UP)
 				&kp BACKSPACE
 
 				// ----------------------------------------
@@ -647,13 +647,13 @@
 				&kp LEFT
 				&kp DOWN
 				&kp RIGHT
-				&kp LG(LC(LS(G)))	
+				&kp LC(LG(LA(G)))
 
 				&kp LC(LS(F11))	
 				&kp LCTL				
 				&kp PG_DN
 				&kp LGUI			
-				&kp INSERT
+				&kp LG(PG_DN)
 				&kp ENTER
 
 				// ----------------------------------------
@@ -867,37 +867,37 @@
 				&kp LC(LA(F8))	
 				&kp LC(LA(F9))	
 				&kp LC(LA(F10))	
-				&kp LC(LA(L))	
+				&kp BACKSPACE			
 				
 				// ----------------------------------------
 
-				&kp LC(LA(Z))	
+				&kp LC(LA(Y))	
 				&kp LG(A)
-				&kp LC(LA(A))	
-				&kp LC(LA(B))	
+				&kp LC(LA(L))	
+				&kp LC(LA(R))	
 				&kp LG(C)			
 				&kp LG(X)
 
-				&kp LC(LA(J))
+				&kp LC(LA(H))
 				&kp LG(V)
-				&kp LC(LA(T))	
+				&kp LC(LA(I))	
 				&kp LC(LA(U))	
-				&kp LC(LA(V))	
-				&kp LC(LA(O))	
+				&kp LC(LA(J))	
+				&kp ENTER
 
 				// ----------------------------------------
 
-				&kp LC(LA(Y))	
+				&kp LC(LA(Z))	
 				&kp LC(LA(S))
-				&kp LC(LA(C))	
-				&kp LC(LA(D))	
-				&kp LC(LA(R))	
-				&kp LC(LA(G))
+				&kp LG(PG_DN)
+				&kp LG(PG_UP)
+				&kp LC(LA(Q))
+				&kp LC(LA(C))
 
-				&kp LC(LA(H))
+				&kp LC(LA(O))
 				&kp LC(LA(F))	
-				&kp LC(LA(M))	
-				&kp LC(LA(N))	
+				&kp LG(INSERT)	
+				&kp LG(DEL)	
 				&kp LC(LA(E))
 				&kp LC(LA(W))
 				
@@ -940,37 +940,37 @@
 				&kp LC(LA(LS(F8)))	
 				&kp LC(LA(LS(F9)))
 				&kp LC(LA(LS(F10)))
-				&kp LC(LS(LA(L)))
+				&kp LA(BACKSPACE)
 				
 				// ----------------------------------------
 
-				&kp LC(LA(LS(Z)))	
+				&kp LC(LA(LS(Y)))	
 				&kp LG(LS(A))
-				&kp LC(LS(LA(A)))	
-				&kp LC(LS(LA(B)))
+				&kp LC(LS(LA(L)))	
+				&kp LC(LS(LA(R)))
 				&kp LG(LS(C))			
 				&kp LG(LS(X))
 
-				&kp LC(LS(LA(J)))
+				&kp LC(LS(LA(H)))
 				&kp LG(LS(V))	
-				&kp LC(LS(LA(T)))	
+				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
-				&kp LC(LS(LA(V)))
-				&kp LC(LS(LA(O)))	
+				&kp LC(LS(LA(J)))
+				&kp LA(ENTER)	
 
 				// ----------------------------------------
 
-				&kp LC(LA(LS(Y)))	
+				&kp LC(LA(LS(Z)))	
 				&kp LC(LS(LA(S)))	
-				&kp LC(LS(LA(C)))
-				&kp LC(LS(LA(D)))
-				&kp LC(LS(LA(R)))	
-				&kp LC(LS(LA(G)))	
+				&kp LG(LS(PG_DN))
+				&kp LG(LS(PG_UP))
+				&kp LC(LS(LA(Q)))	
+				&kp LC(LS(LA(C)))	
 
-				&kp LC(LA(LS(H)))	
+				&kp LC(LA(LS(O)))	
 				&kp LC(LS(LA(F)))	
-				&kp LC(LS(LA(M)))
-				&kp LC(LS(LA(N)))
+				&kp LG(LS(INSERT))
+				&kp LG(LS(DEL))	
 				&kp LC(LS(LA(E)))
 				&kp LC(LA(LS(W)))	
 				
@@ -1301,7 +1301,7 @@
 				&kp LC(LA(F4))
 				&kp LC(LA(F5))
 
-				&kp LA(LG(X))
+				&kp LA(SPACE)
 				&kp LG(LS(LEFT))
 				&kp LG(LA(LC(UP)))
 				&kp LG(LS(RIGHT))
@@ -1317,12 +1317,12 @@
 				&kp LCTL
 				&kp DELETE
 
-				&kp LA(LG(M))
+				&kp LC(LA(M))
 				&kp LG(LA(LC(LEFT)))
 				&kp LG(LA(LC(DOWN)))
 				&kp LG(LA(LC(RIGHT)))
 				&kp LG(LS(DOWN))
-				&kp LA(ENTER)				// 
+				&kp LC(ENTER)				// 
 
 				// ----------------------------------------
 
@@ -1344,7 +1344,7 @@
 		
 				&kp LG(P)				
 				&kp LG(SPACE)
-				&kp LA(LG(U))
+				&kp LC(LA(LG(U)))
 				&mPrgReset					
 				&mNavReset
 				&mNrReset
@@ -1390,7 +1390,7 @@
 				&none
 				&none
 				&none
-				&kp LA(LG(C))
+				&kp LC(LA(LG(C)))
 				&kp LS(DELETE)
 
 				&kp LG(LA(F1))	
@@ -1420,7 +1420,7 @@
 		
 				&kp LG(LS(P))				
 				&kp LG(LA(SPACE))
-				&kp LA(LG(O))
+				&kp LC(LA(LG(O)))
 				&mPrgReset					//
 				&mNavReset
 				&mNrReset
