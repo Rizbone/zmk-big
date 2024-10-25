@@ -48,7 +48,7 @@
             label = "TAP_DANCE_mMdNr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to mNR>, <&to mNRhard>;
+            bindings = <&to mNR>, <&sl mNR>;
         };
 
 		//Tab Dance Shift
@@ -314,7 +314,7 @@
 				&sl mFUNC
 				&sl mPRG 
 				&sl mNAV
-				&to mNR
+				&mMdNr
 
 				// ----------------------------------------
 			>;
