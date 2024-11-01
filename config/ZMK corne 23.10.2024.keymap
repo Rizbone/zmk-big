@@ -314,7 +314,7 @@
 				&sl mFUNC
 				&sl mPRG 
 				&sl mNAV
-				&to mNR
+				&mMdNr
 
 				// ----------------------------------------
 			>;
@@ -387,7 +387,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&sl mNR
+				&none
 			>;		
 		};
 
@@ -530,7 +530,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&sl mNR
+				&mMdNr
 
 				// ----------------------------------------		
 			>;
@@ -1347,7 +1347,7 @@
 				&kp LA(LG(U))
 				&mPrgReset					
 				&mNavReset
-				&to mNR
+				&mNrReset
 
 				// ----------------------------------------
 			>;
@@ -1423,7 +1423,7 @@
 				&kp LA(LG(O))
 				&mPrgReset					//
 				&mNavReset
-				&to mNR
+				&mNrReset
 
 				// ----------------------------------------
 			>;

@@ -335,54 +335,54 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp RBKT  				// +
 				&kp GRAVE				// Spitze
-				&kp LS(GRAVE)			// Spitze
-				&kp NUHS				// #
+				&kp COMMA
+				&kp N7
+				&kp N8
 				&kp X
-				
-				&kp LA(L)				// @
-				&kp LS(DOT)				// :
-				&kp LS(COMMA)			// ;
+			
 				&kp M
-				&kp LS(RBKT)			// *				
+				&kp N9
+				&kp N0
+				&kp DOT
+				&kp LS(GRAVE)			// Spitze		
 				&kp BACKSPACE
 
 				// ----------------------------------------
 
 				&sl mSShift
+				&kp LS(N7)
 				&kp N1				
 				&kp N2				
 				&kp N3				
-				&kp N4					
-				&kp N5		
+				&kp SLASH
 
+				&kp RBKT
+				&kp N4				
+				&kp N5			
 				&kp N6				
-				&kp N7				
-				&kp N8			
-				&kp N9				
-				&kp N0				
+				&kp LS(RBKT)
 				&mEnterReset 
 
 				// ----------------------------------------
 
 				&mShiftReset
-				&kp LS(N7)				// /
-				&kp LS(LA(N7))			// backlslash
-				&kp LS(N5)				// %
-				&kp LA(LC(E))			// €
-				&kp NUBS				// ^
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LS(N0)				// =
-				&kp DOT					// .
-				&kp COMMA				// ,
-				&kp LS(SLASH)			// _
-				&kp SLASH 				// -
+				&none
+				&kp LS(N0)				
+				&none
+				&none
+				&none
 				&mShiftReset
 
 				// ----------------------------------------
 		
-				&mSymReset
+				&sl mSYM
 				&mSpaceReset 
 				&mFuncReset
 				&mPrgReset
@@ -406,49 +406,49 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp RBKT  				// +
 				&kp GRAVE				// Spitze
-				&kp LS(GRAVE)			// Spitze
-				&kp NUHS				// #
+				&kp COMMA
+				&kp N7
+				&kp N8
 				&kp X
-				
-				&kp LA(L)				// @
-				&kp LS(DOT)				// :
-				&kp LS(COMMA)			// ;
+			
 				&kp M
-				&kp LS(RBKT)			// *	
+				&kp N9
+				&kp N0
+				&kp DOT
+				&kp LS(GRAVE)			// Spitze		
 				&kp BSPC
 
 				// ----------------------------------------
 
 				&sl mSShift
+				&kp LS(N7)
 				&kp N1				
 				&kp N2				
 				&kp N3				
-				&kp N4					
-				&kp N5		
+				&kp SLASH
 
+				&kp RBKT
+				&kp N4				
+				&kp N5			
 				&kp N6				
-				&kp N7				
-				&kp N8				
-				&kp N9				
-				&kp N0				
+				&kp LS(RBKT)					
 				&kp ENTER 
 
 				// ----------------------------------------
 
 				&mMdLs
-				&kp LS(N7)				// /
-				&kp LS(LA(N7))			// backlslash
-				&kp LS(N5)				// %
-				&kp LA(LC(E))			// €
-				&kp NUBS				// ^
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LS(N0)				// =
-				&kp DOT					// .
-				&kp COMMA				// ,
-				&kp LS(SLASH)			// _
-				&kp SLASH 				// -
+				&none
+				&kp LS(N0)				
+				&none
+				&none
+				&none
 				&mMdRs
 
 				// ----------------------------------------
@@ -525,7 +525,7 @@
 
 				// ----------------------------------------
 
-				&mSymReset
+				&sl mSYM
 				&mSpaceReset 
 				&mFuncReset
 				&mPrgReset
@@ -1347,7 +1347,7 @@
 				&kp LA(LG(U))
 				&mPrgReset					
 				&mNavReset
-				&to mNR
+				&to mNRhard
 
 				// ----------------------------------------
 			>;
@@ -1423,7 +1423,7 @@
 				&kp LA(LG(O))
 				&mPrgReset					//
 				&mNavReset
-				&to mNR
+				&to mNRhard
 
 				// ----------------------------------------
 			>;
