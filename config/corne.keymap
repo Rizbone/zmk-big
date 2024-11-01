@@ -314,7 +314,7 @@
 				&sl mFUNC
 				&sl mPRG 
 				&sl mNAV
-				&sl mNR
+				&to mNR
 
 				// ----------------------------------------
 			>;
@@ -387,7 +387,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&none
+				&sl mNR
 			>;		
 		};
 
