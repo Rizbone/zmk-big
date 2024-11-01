@@ -1347,7 +1347,7 @@
 				&kp LA(LG(U))
 				&mPrgReset					
 				&mNavReset
-				&to mNR
+				&to mNRhard
 
 				// ----------------------------------------
 			>;
@@ -1423,7 +1423,7 @@
 				&kp LA(LG(O))
 				&mPrgReset					//
 				&mNavReset
-				&to mNR
+				&to mNRhard
 
 				// ----------------------------------------
 			>;
